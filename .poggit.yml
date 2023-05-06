@@ -1,8 +1,8 @@
---- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/bonbionTR/WaterBottle-PM4
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/bonbionTR/WaterBottle
 build-by-default: true
 branches:
 - main
 projects:
-  WaterBottle-PM4:
+  WaterBottle:
     path: ""
 ...
