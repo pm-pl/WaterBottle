@@ -1,0 +1,6 @@
+messages:
+  filled_bottle: "§9Bir su şişesi doldurdun!"
+  full_inventory: "§cEyvah, Envanterin dolu, su şişesi dolduramazsın!"
+  
+items:
+  potion_name: "§r§bSu Şişesi"
