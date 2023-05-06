@@ -31,7 +31,6 @@ class Main extends PluginBase implements Listener {
                 $item = ItemFactory::getInstance()->get(ItemIds::POTION, 0, 1);
                 $item->setCustomName($this->config->getNested("items.potion_name"));
                 $player->getInventory()->addItem($item);
-                $player->sendMessage($this->config->getNested("messages.filled_bottle"));
 
 
                 $level = $player->getWorld();
