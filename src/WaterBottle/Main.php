@@ -31,12 +31,16 @@ class Main extends PluginBase implements Listener {
                 $item->setCustomName($this->config->getNested("items.potion_name"));
                 $player->getInventory()->addItem($item);
                 $player->sendMessage($this->config->getNested("messages.filled_bottle"));
-                
-                $pk = new LevelSoundEventPacket();
-                $pk->sound = LevelSoundEventPacket::SOUND_WATER;
-                $pk->position = $player->getPosition();
-                $player->sendDataPacket($pk);
 
+
+                $level = $player->getWorld();
+                $getx = round($player->getPosition()->getX());
+                $gety = round($player->getPosition()->getY());
+                $getz = round($player->getPosition()->getZ());
+                $vect = new Vector3($getx, $gety, $getz, $level);
+                $player->sendTitle($this->config->getNested("messages.filled_bottle"));
+                $player->getWorld()->addSound($player->getPosition(), new XpCollectSound(), [$player]);
+                
                 $player->getInventory()->removeItem(ItemFactory::getInstance()->get(ItemIds::GLASS_BOTTLE, 0, 1));
             } else {
                 $player->sendMessage($this->config->getNested("messages.full_inventory"));
