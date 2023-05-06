@@ -37,7 +37,7 @@ class Main extends PluginBase implements Listener {
                 $getx = round($player->getPosition()->getX());
                 $gety = round($player->getPosition()->getY());
                 $getz = round($player->getPosition()->getZ());
-                $vect = new Vector3($getx, $gety, $getz, $level);
+                $vect = new Vector3($getx, $gety, $getz);
                 $player->sendTitle($this->config->getNested("messages.filled_bottle"));
                 $player->getWorld()->addSound($player->getPosition(), new XpCollectSound(), [$player]);
                 
