@@ -5,4 +5,5 @@ branches:
 projects:
   WaterBottle:
     path: ""
+    icon: icon.png
 ...
