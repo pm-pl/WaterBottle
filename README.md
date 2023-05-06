@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/bonbionTR/WaterBottle"><img src="https://ibb.co/dc944nB"></img></a><br>
+  <a href="https://github.com/bonbionTR/WaterBottle"><img src="https://i.ibb.co/3sXmmt1/icon.png"></img></a><br>
 </p>
 
 # WaterBottle
