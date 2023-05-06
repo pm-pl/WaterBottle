@@ -1,6 +1,5 @@
 <img align="right" width="auto" height="260" src="https://i.ibb.co/3sXmmt1/icon.png" alt="WaterBottle">
 
-[![](https://poggit.pmmp.io/shield.state/WaterBottle)](https://poggit.pmmp.io/p/WaterBottle)
 <a href="https://poggit.pmmp.io/p/WaterBottle"><img src="https://poggit.pmmp.io/shield.state/WaterBottle"></a>
 
 # WaterBottle
