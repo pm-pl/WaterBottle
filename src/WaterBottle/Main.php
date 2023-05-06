@@ -6,9 +6,10 @@ use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerInteractEvent;
 use pocketmine\item\ItemFactory;
 use pocketmine\item\ItemIds;
-use pocketmine\network\mcpe\protocol\LevelSoundEventPacket;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
+use pocketmine\math\Vector3;
+use pocketmine\world\sound\XpCollectSound;
 
 class Main extends PluginBase implements Listener {
 
