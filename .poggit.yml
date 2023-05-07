@@ -3,11 +3,6 @@ branches:
   - PM4
 projects:
   WaterBottle:
-    icon: icon.png
+    icon: "icon.png"
     libs: ""
-files:
-  - path: img/
-    allowed-extensions:
-      - .png
-
 ...
