@@ -5,4 +5,9 @@ projects:
   WaterBottle:
     icon: icon.png
     libs: ""
+files:
+  - path: img/
+    allowed-extensions:
+      - .png
+
 ...
